@@ -6,9 +6,7 @@ for i in range(t):
     c = a
     if a < b:
         print(b-a)
-    elif a == b:
-        print(a)
+    elif a == b or a%b == 0:
+        print(0)
     else:
-        while a%b != 0:
-            a+=1
-        print(a-c)
+        print(b*(-(-a//b))-a)
