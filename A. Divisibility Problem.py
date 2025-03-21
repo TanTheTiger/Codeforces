@@ -9,4 +9,5 @@ for i in range(t):
     elif a == b or a%b == 0:
         print(0)
     else:
-        print(b*(-(-a//b))-a)
+        #print(b*(-(-a//b))-a)
+        print(b-a%b)
