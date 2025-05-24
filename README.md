@@ -1,2 +1,2 @@
 # Codeforces
-Codeforces solutions that I have solved.
+Repository of Codeforces solutions that I have solved.
